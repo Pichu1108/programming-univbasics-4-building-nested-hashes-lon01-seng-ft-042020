@@ -21,6 +21,7 @@ def monopoly_with_third_tier
   {
     :railroads => {
       :pieces => 4,
+<<<<<<< HEAD
       :rent_in_dollars => {
         :one_piece_owned => 25,
         :two_pieces_owned => 50,
@@ -33,12 +34,17 @@ def monopoly_with_third_tier
         :b_and_o_railroad => {},
         :shortline_railroad => {}
       }
+=======
+      :rent_in_dollars => {},
+      :names => {}
+>>>>>>> d5b7320e51aef3a6cba1fa6f6efa72c8a893125c
     }
   }
 
 end
 
 def monopoly_with_fourth_tier
+<<<<<<< HEAD
   {
     :railroads => {
       :pieces => 4,
@@ -64,5 +70,8 @@ def monopoly_with_fourth_tier
       }
     }
   }
+=======
+
+>>>>>>> d5b7320e51aef3a6cba1fa6f6efa72c8a893125c
 
 end
